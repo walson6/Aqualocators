@@ -1,4 +1,4 @@
-# CS136 Computer Vision Term Project
+# Aqualocators Computer Vision Project
 
 ## Overview
 This project applies computer vision techniques to real-world image datasets. The pipeline includes image filtering, edge detection, segmentation, and robustness analysis.
