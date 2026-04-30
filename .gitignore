@@ -1,4 +1,3 @@
-built.bat
 compile_commands.json
 compile_flags.txt
 .vscode
@@ -14,5 +13,10 @@ main.exe
 netpbm_hough.c
 texture_segment.c
 texture_segment.exe
-built.bat
+*.exe
+*.o
+*.out
+
+**/output_images
+
 **/report.txt

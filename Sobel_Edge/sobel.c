@@ -11,7 +11,7 @@
 //   4. Scale magnitude into [0,255] and write output image
 //
 // Compile:
-//   gcc sobel.c netpbm.c -o sobel -lm
+//   gcc sobel.c ../netpbm.c -o sobel -lm
 // Run:
 //   ./sobel <input.ppm|pgm>
 
@@ -130,5 +130,5 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// compile: gcc sobel.c netpbm.c -o sobel -lm
-// run:     ./sobel coastline.ppm
+// compile: gcc sobel.c ../netpbm.c -o sobel -lm
+// run:     sobel.exe ../coastline.ppm

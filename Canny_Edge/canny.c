@@ -13,10 +13,10 @@
 //   Defaults: highRatio=0.15  lowRatio=0.50
 //
 // Compile:
-//   gcc canny.c netpbm.c -o canny -lm
+//   gcc canny.c ../netpbm.c -o canny -lm
 // Run:
-//   ./canny coastline.ppm
-//   ./canny coastline.ppm 0.20 0.40
+//   canny.exe ../coastline.ppm
+//   canny.exe ../coastline.ppm 0.20 0.40
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -238,6 +238,6 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// compile: gcc canny.c netpbm.c -o canny -lm
+// compile: gcc canny.c ../netpbm.c -o canny -lm
 // run:     ./canny coastline.ppm
 // run:     ./canny coastline.ppm 0.20 0.40   (custom thresholds)

@@ -9,10 +9,12 @@
 //   morphologicalClose() dilation then erosion (fills small gaps and connects fragmented edges)
 //
 // Compile:
-//   gcc morphology.c netpbm.c -o morphology -lm
+//   gcc morphology.c ../netpbm.c -o morphology -lm
 // Run:
-//   ./morphology <input.ppm|pgm> [threshold]
-//   ./morphology coastline.ppm 128
+//   morphology.exe ../coastline.ppm [threshold] [sizeThreshold]
+//   morphology.exe ../coastline.ppm 128 50
+//      threshold 128 is the black/white cutoff
+//      sizeThreshold 50 is the size threshold for removing small connected components
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -242,5 +244,5 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// compile: gcc morphology.c netpbm.c -o morphology -lm
-// run:     ./morphology coastline.ppm 128 50
+// compile: gcc morphology.c ../netpbm.c -o morphology -lm
+// run:     morphology.exe ../coastline.ppm 128 50

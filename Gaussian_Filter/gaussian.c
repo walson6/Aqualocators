@@ -7,9 +7,9 @@
 //   gaussian_filter() true Gaussian kernel convolution
 //
 // Compile:
-//   gcc gaussian.c netpbm.c -o gaussian -lm
+//   gcc gaussian.c ../netpbm.c -o gaussian -lm
 // Run:
-//   ./gaussian <input.ppm/pgm>
+//   gaussian.exe ../coastline.ppm
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -239,5 +239,5 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// compile: gcc gaussian.c netpbm.c -o gaussian -lm
-// run:     ./gaussian coastline.ppm
+// compile: gcc gaussian.c ../netpbm.c -o gaussian -lm
+// run:     gaussian.exe ../coastline.ppm
