@@ -11,8 +11,8 @@
 // Compile:
 //   gcc morphology.c ../netpbm.c -o morphology -lm
 // Run:
-//   morphology.exe ../coastline.ppm [threshold] [sizeThreshold]
-//   morphology.exe ../coastline.ppm 128 50
+//   morphology.exe ../input_images/coastline.ppm [threshold] [sizeThreshold]
+//   morphology.exe ../input_images/coastline.ppm 128 50
 //      threshold 128 is the black/white cutoff
 //      sizeThreshold 50 is the size threshold for removing small connected components
 
@@ -245,4 +245,4 @@ int main(int argc, char *argv[]) {
 }
 
 // compile: gcc morphology.c ../netpbm.c -o morphology -lm
-// run:     morphology.exe ../coastline.ppm 128 50
+// run:     morphology.exe ../input_images/coastline.ppm 128 50

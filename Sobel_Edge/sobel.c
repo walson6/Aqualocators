@@ -13,7 +13,7 @@
 // Compile:
 //   gcc sobel.c ../netpbm.c -o sobel -lm
 // Run:
-//   ./sobel <input.ppm|pgm>
+//   sobel.exe ../input_images/coastline.ppm
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -131,4 +131,4 @@ int main(int argc, char *argv[]) {
 }
 
 // compile: gcc sobel.c ../netpbm.c -o sobel -lm
-// run:     sobel.exe ../coastline.ppm
+// run:     sobel.exe ../input_images/coastline.ppm

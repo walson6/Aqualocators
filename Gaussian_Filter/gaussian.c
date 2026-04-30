@@ -9,7 +9,7 @@
 // Compile:
 //   gcc gaussian.c ../netpbm.c -o gaussian -lm
 // Run:
-//   gaussian.exe ../coastline.ppm
+//   gaussian.exe ../input_images/coastline.ppm
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -240,4 +240,4 @@ int main(int argc, char *argv[]) {
 }
 
 // compile: gcc gaussian.c ../netpbm.c -o gaussian -lm
-// run:     gaussian.exe ../coastline.ppm
+// run:     gaussian.exe ../input_images/coastline.ppm

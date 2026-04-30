@@ -15,7 +15,7 @@
 // Compile:
 //   gcc canny.c ../netpbm.c -o canny -lm
 // Run:
-//   canny.exe ../coastline.ppm
+//   canny.exe ../input_images/coastline.ppm
 //   canny.exe ../coastline.ppm 0.20 0.40
 
 #include <stdio.h>
@@ -201,7 +201,7 @@ Image canny(Image img, double highRatio, double lowRatio) {
 }
 
 int main(int argc, char *argv[]) {
-    char   *inputFile = (argc > 1) ? argv[1] : "input.ppm";
+    char   *inputFile = (argc > 1) ? argv[1] : "../input_images/input.ppm";
     double  highRatio = (argc > 2) ? atof(argv[2]) : 0.15;
     double  lowRatio  = (argc > 3) ? atof(argv[3]) : 0.50;
 
@@ -239,5 +239,5 @@ int main(int argc, char *argv[]) {
 }
 
 // compile: gcc canny.c ../netpbm.c -o canny -lm
-// run:     ./canny coastline.ppm
-// run:     ./canny coastline.ppm 0.20 0.40   (custom thresholds)
+// run:     canny.exe ../input_images/coastline.ppm
+// run:     canny.exe ../input_images/coastline.ppm 0.20 0.40   (custom thresholds)
