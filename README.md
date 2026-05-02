@@ -43,8 +43,8 @@ The project uses the Netpbm image formats (PPM/PGM). Therefore, input images in 
 This can be done using ImageMagick:  
 
 ```bash
-magick input.jpg output.ppm   # for color images
-magick input.jpg output.pgm   # for grayscale images
+magick input_images/input.jpg input_images/output.ppm   # for color images
+magick input_images/input.jpg input_images/output.pgm   # for grayscale images
 ```
 
 ---
@@ -55,7 +55,7 @@ Ensure you are inside the Algorithm_Name_Module/ directory before compiling
 
 Each module compiles independently:
 ```bash
-gcc code.c netpbm.c -o program -lm
+gcc code.c ../netpbm.c -o program -lm
 
 # example compilation for gaussian.c
 gcc gaussian.c ../netpbm.c -o gaussian -lm

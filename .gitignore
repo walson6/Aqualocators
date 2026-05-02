@@ -6,16 +6,13 @@ compile_flags.txt
 .clang-tidy
 .clang-tools-extra
 filters.c
-filters.exe
-hough.exe
 main.c
-main.exe
 netpbm_hough.c
-texture_segment.c
-texture_segment.exe
 *.exe
 *.o
 *.out
+Robustness_Analysis/
+Texture_Segmentation/
 
 **/output_images
 **/report.txt
