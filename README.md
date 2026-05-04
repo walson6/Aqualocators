@@ -31,6 +31,10 @@ Aqualocators/
 │   ├── output_images/
 │   ├── texture_segmentation.c
 │   ├── REPORT.md
+├── Creative_Exploration/
+│   ├── output_images/
+│   ├── creative_morphology.c
+│   ├── REPORT.md
 ├── input_images/
 │   ├── input1.jpg
 │   ├── input1.pgm
