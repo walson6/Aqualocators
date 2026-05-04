@@ -11,7 +11,7 @@ netpbm_hough.c
 *.exe
 *.o
 *.out
-Robustness_Analysis/
+Robustness_Analysis/robustness_analysis
 Texture_Segmentation/
 
 **/output_images
