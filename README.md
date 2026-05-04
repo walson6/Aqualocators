@@ -27,6 +27,10 @@ Aqualocators/
 ├── Canny_Edge/
 │   ├── output_images/
 │   ├── canny.c
+├── Image_Segmentation/
+│   ├── output_images/
+│   ├── texture_segmentation.c
+│   ├── REPORT.md
 ├── input_images/
 │   ├── input1.jpg
 │   ├── input1.pgm
